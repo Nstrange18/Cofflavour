@@ -1,0 +1,34 @@
+.contact-methods {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.contact-methods .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(193, 115, 60, 0.15);
+  color: var(--clr-caramel);
+  border-radius: 50%;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  transition: all var(--transition-normal, 0.3s ease);
+}
+
+.contact-methods:hover .icon {
+  background-color: var(--clr-caramel);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.contact-methods .description {
+  font-family: var(--font-body, "Inter", sans-serif);
+  font-size: 1.05rem;
+  text-align: left;
+  line-height: 1.4;
+  word-break: break-word;
+}

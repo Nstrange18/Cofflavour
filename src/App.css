@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+:root{
+    --cofCream-color: #ece1d6;
+    --cofBrown-color: #6f4e37;
+    --cofBrown-hover-color: #865e42;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

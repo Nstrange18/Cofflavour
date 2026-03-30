@@ -1,0 +1,213 @@
+:root {
+  /* Color Palette - Cofflavour Theme */
+  --clr-espresso: #1A1311;
+  --clr-mocha: #3B2F2F;
+  --clr-caramel-dark: #A36B25;
+  --clr-caramel: #C78B3A;
+  --clr-caramel-light: #E0AB67;
+  --clr-latte: #E8D8C8;
+  --clr-cream: #F5EFEB;
+  --clr-white: #FFFFFF;
+
+  /* Typography */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+  --spacing-xxl: 8rem;
+
+  /* Border Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(26, 19, 17, 0.05);
+  --shadow-md: 0 4px 12px rgba(26, 19, 17, 0.1);
+  --shadow-lg: 0 8px 24px rgba(26, 19, 17, 0.15);
+}
+
+/* Global Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--clr-cream);
+  color: var(--clr-espresso);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--clr-espresso);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color var(--transition-normal);
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: all var(--transition-normal);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+/* Utility Classes */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-caramel);
+  color: var(--clr-white);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-full);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border: 2px solid var(--clr-caramel);
+}
+
+.btn-primary:hover {
+  background-color: var(--clr-caramel-dark);
+  border-color: var(--clr-caramel-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: var(--clr-espresso);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-full);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border: 2px solid var(--clr-espresso);
+}
+
+.btn-outline:hover {
+  background-color: var(--clr-espresso);
+  color: var(--clr-cream);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Section Spacing */
+.section-padding {
+  padding: var(--spacing-xl) 0;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding: var(--spacing-xxl) 0;
+  }
+}
+
+/* Global Brand Logo */
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.brand-icon-wrapper {
+  background: linear-gradient(135deg, var(--clr-caramel) 0%, #8b4513 100%);
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 4px 10px rgba(139, 69, 19, 0.3);
+}
+
+.brand-logo:hover .brand-icon-wrapper {
+  transform: rotate(-10deg) scale(1.1);
+}
+
+.brand-icon {
+  font-size: 1.5rem;
+}
+
+.brand-text {
+  font-family: var(--font-heading, "Playfair Display", serif);
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--clr-caramel-dark);
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.brand-logo:hover .brand-text {
+  color: var(--clr-caramel);
+}
+
+.brand-text-light {
+  color: var(--clr-cream);
+}
+
+.brand-logo:hover .brand-text-light {
+  color: var(--clr-caramel);
+}
+
+@media (max-width: 480px) {
+  .brand-icon-wrapper {
+    width: 32px;
+    height: 32px;
+  }
+  .brand-icon {
+    font-size: 1.2rem;
+  }
+  .brand-text {
+    font-size: 1.4rem;
+  }
+}
+
+

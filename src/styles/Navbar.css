@@ -1,0 +1,132 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  transition: all var(--transition-normal);
+  background-color: rgba(245, 239, 235, 0.98);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 6px rgba(26, 19, 17, 0.05);
+}
+
+.navbar.scrolled {
+  height: 70px;
+  box-shadow: 0 10px 20px rgba(26, 19, 17, 0.08);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Desktop Menu */
+.nav-links {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    gap: 2.5rem;
+  }
+}
+
+.nav-link {
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--clr-espresso);
+  font-size: 1rem;
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--clr-caramel);
+  transition: width var(--transition-normal);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: var(--clr-caramel);
+}
+
+/* Actions and Mobile Toggle */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-actions .nav-login-btn {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav-actions .nav-login-btn {
+    display: inline-flex;
+    padding: 0.5rem 1.2rem;
+  }
+}
+
+.mobile-toggle {
+  display: block;
+  font-size: 1.8rem;
+  color: var(--clr-espresso);
+  z-index: 1001; /* Keep above mobile menu */
+}
+
+@media (min-width: 768px) {
+  .mobile-toggle {
+    display: none;
+  }
+}
+
+/* Mobile Menu Overlay */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  max-width: 400px;
+  height: 100vh;
+  background-color: var(--clr-cream);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  padding: 80px 2rem 2rem;
+  gap: 2rem;
+  transition: right var(--transition-normal);
+  z-index: 999;
+}
+
+.mobile-menu.open {
+  right: 0;
+}
+
+.mobile-link {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--clr-espresso);
+  border-bottom: 1px solid rgba(26, 19, 17, 0.1);
+  padding-bottom: 0.5rem;
+}
+
+.mobile-login-btn {
+  margin-top: auto;
+  width: 100%;
+}

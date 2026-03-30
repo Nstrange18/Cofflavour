@@ -1,0 +1,127 @@
+.footer {
+  background-color: var(--clr-espresso);
+  color: var(--clr-cream);
+  padding-top: var(--spacing-xxl);
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-xl);
+  padding-bottom: var(--spacing-xl);
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+  }
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 1.5rem;
+  width: max-content;
+}
+
+.footer-desc {
+  font-family: var(--font-body);
+  opacity: 0.8;
+  max-width: 300px;
+}
+
+.social-links {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--clr-mocha);
+  color: var(--clr-cream);
+  transition: all var(--transition-normal);
+}
+
+.social-icon:hover {
+  background-color: var(--clr-caramel);
+  transform: translateY(-3px);
+}
+
+.footer-links h4,
+.footer-newsletter h4 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--clr-caramel-light);
+}
+
+.actual-footer-links {
+  color: var(--clr-cream);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.footer-links a {
+  opacity: 0.8;
+  transition: all var(--transition-normal);
+  display: inline-block;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+  color: var(--clr-caramel);
+  transform: translateX(5px);
+}
+
+.footer-newsletter p {
+  opacity: 0.8;
+  margin-bottom: var(--spacing-md);
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.newsletter-form input {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--clr-mocha);
+  background-color: transparent;
+  color: var(--clr-cream);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  transition: border-color var(--transition-normal);
+}
+
+.newsletter-form input:focus {
+  outline: none;
+  border-color: var(--clr-caramel);
+}
+
+.newsletter-form .btn-primary {
+  width: 100%;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(245, 239, 235, 0.1);
+  padding: var(--spacing-md) 0;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 0.875rem;
+}

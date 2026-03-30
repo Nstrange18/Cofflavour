@@ -1,0 +1,382 @@
+{
+  "coffee": [
+    {
+      "id": 1,
+      "name": "Vanilla Latte",
+      "path": "/src/assets/coffee-images/3d_cup_of_latte_png_on_white_background___Premium_AI-generated_PSD-removebg-preview.png",
+      "price": 4.50,
+      "description": "A creamy latte infused with smooth vanilla flavor, perfect for a cozy day.",
+      "isAvailable": true,
+      "country": "Italy",
+      "roast": "Medium",
+      "flavorNotes": ["Vanilla", "Creamy", "Sweet", "Smooth"],
+      "reviews": [
+        { "name": "Alice", "comment": "So creamy and smooth!", "rating": 5, "date": "2023-10-01" },
+        { "name": "James", "comment": "Perfect for evenings.", "rating": 4, "date": "2023-09-21" },
+        { "name": "Sophia", "comment": "Could use stronger vanilla taste.", "rating": 3, "date": "2023-08-15" },
+        { "name": "Daniel", "comment": "Best latte I’ve had in a while.", "rating": 5, "date": "2023-07-30" },
+        { "name": "Emma", "comment": "Really smooth and comforting.", "rating": 4, "date": "2023-07-18" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Caramel Macchiato",
+      "path": "/src/assets/coffee-images/7a528432-98ab-4585-ad0b-4a7227b8b074-removebg-preview.png",
+      "price": 5.20,
+      "description": "Espresso layered with steamed milk and topped with sweet caramel drizzle.",
+      "isAvailable": false,
+      "country": "USA",
+      "roast": "Medium",
+      "flavorNotes": ["Caramel", "Sweet", "Milky", "Smooth"],
+      "reviews": [
+        { "name": "Olivia", "comment": "Caramel drizzle is heavenly.", "rating": 5, "date": "2023-09-11" },
+        { "name": "Liam", "comment": "Too sweet for my liking.", "rating": 3, "date": "2023-08-23" },
+        { "name": "Sophia", "comment": "A great balance of espresso and caramel.", "rating": 4, "date": "2023-07-20" },
+        { "name": "Ethan", "comment": "Love it iced as well!", "rating": 5, "date": "2023-07-05" },
+        { "name": "Mia", "comment": "Rich and flavorful.", "rating": 4, "date": "2023-06-29" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Hazelnut Cappuccino",
+      "path": "/src/assets/coffee-images/80a51a1c-d83c-4124-bffd-c3cedc9bf058-removebg-preview.png",
+      "price": 4.80,
+      "description": "A nutty twist on the classic cappuccino with a hint of hazelnut syrup.",
+      "isAvailable": true,
+      "country": "France",
+      "roast": "Medium",
+      "flavorNotes": ["Hazelnut", "Nutty", "Sweet", "Foamy"],
+      "reviews": [
+        { "name": "Daniel", "comment": "Nutty and delicious!", "rating": 5, "date": "2023-08-10" },
+        { "name": "Grace", "comment": "Foam was perfect.", "rating": 4, "date": "2023-07-14" },
+        { "name": "Michael", "comment": "Could use stronger hazelnut flavor.", "rating": 3, "date": "2023-07-03" },
+        { "name": "Sophia", "comment": "One of my favorites.", "rating": 5, "date": "2023-06-22" },
+        { "name": "Lucas", "comment": "Really enjoyed this one.", "rating": 4, "date": "2023-06-10" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mocha Delight",
+      "path": "/src/assets/coffee-images/85de57b0-2b7a-46e0-8f7c-ee16344c52ce-removebg-preview.png",
+      "price": 5.00,
+      "description": "Rich espresso blended with chocolate and milk, topped with whipped cream.",
+      "isAvailable": true,
+      "country": "Switzerland",
+      "roast": "Dark",
+      "flavorNotes": ["Chocolate", "Sweet", "Rich", "Creamy"],
+      "reviews": [
+        { "name": "Sophia", "comment": "Perfect balance of chocolate and coffee.", "rating": 5, "date": "2023-08-25" },
+        { "name": "Daniel", "comment": "Too sweet for me.", "rating": 3, "date": "2023-07-28" },
+        { "name": "Ella", "comment": "Absolutely loved it!", "rating": 5, "date": "2023-07-12" },
+        { "name": "Henry", "comment": "A chocolate lover’s dream.", "rating": 4, "date": "2023-06-18" },
+        { "name": "Ava", "comment": "The whipped cream makes it perfect.", "rating": 5, "date": "2023-06-01" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Classic Flat White",
+      "path": "/src/assets/coffee-images/A_cup_of_coffee_with_a_design_on_the_top___Premium_Photo-removebg-preview.png",
+      "price": 4.30,
+      "description": "A smooth flat white with velvety milk and bold espresso flavors.",
+      "isAvailable": false,
+      "country": "Australia",
+      "roast": "Light",
+      "flavorNotes": ["Smooth", "Milky", "Velvety", "Balanced"],
+      "reviews": [
+        { "name": "Emily", "comment": "Really smooth and balanced.", "rating": 5, "date": "2023-08-17" },
+        { "name": "Liam", "comment": "A bit too milky for me.", "rating": 3, "date": "2023-07-27" },
+        { "name": "Sophia", "comment": "Great flavor and texture.", "rating": 4, "date": "2023-07-11" },
+        { "name": "Noah", "comment": "Perfect morning coffee.", "rating": 5, "date": "2023-06-15" },
+        { "name": "Isabella", "comment": "Velvety and delicious.", "rating": 4, "date": "2023-06-05" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Takeaway Espresso",
+      "path": "/src/assets/coffee-images/A_simple__classic_take-away_coffee_cup_on_a_tan_background_-removebg-preview.png",
+      "price": 3.20,
+      "description": "Strong espresso shot served in a convenient takeaway cup.",
+      "isAvailable": true,
+      "country": "Italy",
+      "roast": "Dark",
+      "flavorNotes": ["Strong", "Bold", "Aromatic", "Intense"],
+      "reviews": [
+        { "name": "Jack", "comment": "Hits the spot every time.", "rating": 5, "date": "2023-08-19" },
+        { "name": "Olivia", "comment": "Too bitter for me.", "rating": 3, "date": "2023-07-25" },
+        { "name": "William", "comment": "Strong and energizing.", "rating": 4, "date": "2023-07-07" },
+        { "name": "Sophia", "comment": "Perfect for on-the-go.", "rating": 5, "date": "2023-06-21" },
+        { "name": "James", "comment": "Classic espresso taste.", "rating": 4, "date": "2023-06-09" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cinnamon Latte",
+      "path": "/src/assets/coffee-images/b88f485a-e458-472e-9505-f1859824ede9-removebg-preview.png",
+      "price": 4.70,
+      "description": "Espresso and steamed milk with a touch of cinnamon spice.",
+      "isAvailable": true,
+      "country": "India",
+      "roast": "Medium",
+      "flavorNotes": ["Cinnamon", "Spiced", "Warm", "Sweet"],
+      "reviews": [
+        { "name": "Sophia", "comment": "Love the cinnamon kick.", "rating": 5, "date": "2023-08-12" },
+        { "name": "Michael", "comment": "Too much spice for me.", "rating": 3, "date": "2023-07-19" },
+        { "name": "Olivia", "comment": "Perfect fall drink.", "rating": 5, "date": "2023-07-01" },
+        { "name": "Liam", "comment": "Nice balance of flavors.", "rating": 4, "date": "2023-06-27" },
+        { "name": "Emma", "comment": "Very cozy flavor.", "rating": 4, "date": "2023-06-13" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Americano Bold",
+      "path": "/src/assets/coffee-images/Caffè_Americano-removebg-preview (1).png",
+      "price": 3.80,
+      "description": "Hot water poured over rich espresso, delivering a smooth, bold taste.",
+      "isAvailable": false,
+      "country": "USA",
+      "roast": "Dark",
+      "flavorNotes": ["Bold", "Smooth", "Strong", "Classic"],
+      "reviews": [
+        { "name": "Henry", "comment": "Exactly how I like my coffee.", "rating": 5, "date": "2023-08-30" },
+        { "name": "Sophia", "comment": "Too strong for me.", "rating": 3, "date": "2023-07-16" },
+        { "name": "Daniel", "comment": "Great bold taste.", "rating": 4, "date": "2023-07-02" },
+        { "name": "Mia", "comment": "Very smooth finish.", "rating": 5, "date": "2023-06-19" },
+        { "name": "Noah", "comment": "Strong morning brew.", "rating": 4, "date": "2023-06-03" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Classic Americano",
+      "path": "/src/assets/coffee-images/Caffè_Americano-removebg-preview.png",
+      "price": 3.50,
+      "description": "A simple yet satisfying cup of Americano coffee.",
+      "isAvailable": true,
+      "country": "USA",
+      "roast": "Medium",
+      "flavorNotes": ["Classic", "Smooth", "Mild", "Balanced"],
+      "reviews": [
+        { "name": "Ava", "comment": "My daily go-to coffee.", "rating": 5, "date": "2023-08-05" },
+        { "name": "Ethan", "comment": "Nothing special, but reliable.", "rating": 3, "date": "2023-07-22" },
+        { "name": "Sophia", "comment": "Really smooth and nice.", "rating": 4, "date": "2023-07-09" },
+        { "name": "Jack", "comment": "Simple and perfect.", "rating": 5, "date": "2023-06-25" },
+        { "name": "Isabella", "comment": "A classic taste done well.", "rating": 4, "date": "2023-06-14" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Espresso Shot",
+      "path": "/src/assets/coffee-images/Coffee_Photos_-_Download_Free_High-Quality_Pictures___Freepik-removebg-preview.png",
+      "price": 2.50,
+      "description": "Pure, strong, and aromatic espresso shot to boost your day.",
+      "isAvailable": true,
+      "country": "Italy",
+      "roast": "Dark",
+      "flavorNotes": ["Strong", "Bold", "Aromatic", "Intense"],
+      "reviews": [
+        { "name": "Daniel", "comment": "Pure energy in a cup.", "rating": 5, "date": "2023-08-21" },
+        { "name": "Sophia", "comment": "Too bitter for me.", "rating": 3, "date": "2023-07-31" },
+        { "name": "Noah", "comment": "A true espresso experience.", "rating": 5, "date": "2023-07-15" },
+        { "name": "Emma", "comment": "Very intense flavor.", "rating": 4, "date": "2023-07-01" },
+        { "name": "Mia", "comment": "Strong and effective.", "rating": 4, "date": "2023-06-12" }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Cappuccino Classic",
+      "path": "/src/assets/coffee-images/Cup_of_cappuccino_coffee-removebg-preview.png",
+      "price": 4.60,
+      "description": "Espresso topped with steamed milk foam and a dusting of cocoa.",
+      "isAvailable": true,
+      "country": "Italy",
+      "roast": "Medium",
+      "flavorNotes": ["creamy", "chocolatey", "smooth"],
+      "reviews": [
+        { "name": "Anna", "comment": "Perfect morning drink.", "rating": 5, "date": "2024-01-05" },
+        { "name": "Michael", "comment": "Good balance of coffee and milk.", "rating": 4, "date": "2024-02-10" },
+        { "name": "Sarah", "comment": "A little too foamy for me.", "rating": 3, "date": "2024-03-12" },
+        { "name": "James", "comment": "Rich flavor, loved it.", "rating": 5, "date": "2024-03-20" },
+        { "name": "David", "comment": "Classic taste, highly recommend.", "rating": 4, "date": "2024-04-02" }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Iced Caramel Latte",
+      "path": "/src/assets/coffee-images/Download_free_png_of_PNG_Iced_caramel_latte_with_milk_by_Gifty_Gifty_Gifty_Gifty_about_iced_coffee_png__ice_latte__iced_coffee_cup__iced_coffee__and_iced_latte_15105963-removebg-preview.png",
+      "price": 5.40,
+      "description": "Chilled latte blended with caramel syrup and ice.",
+      "isAvailable": false,
+      "country": "Brazil",
+      "roast": "Light",
+      "flavorNotes": ["sweet", "buttery", "refreshing"],
+      "reviews": [
+        { "name": "Sophia", "comment": "So refreshing on a hot day!", "rating": 5, "date": "2024-01-15" },
+        { "name": "Daniel", "comment": "Could use more caramel flavor.", "rating": 3, "date": "2024-02-07" },
+        { "name": "Emily", "comment": "My favorite summer drink.", "rating": 5, "date": "2024-03-09" },
+        { "name": "Chris", "comment": "Too sweet for my taste.", "rating": 2, "date": "2024-04-01" },
+        { "name": "Olivia", "comment": "Smooth and delicious.", "rating": 4, "date": "2024-04-12" }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Iced Mocha",
+      "path": "/src/assets/coffee-images/Download_free_png_of_PNG_Real_iced_coffee_cup_beverage_plastic__by_Tanat_Chittirungsan_about_plastic_coffee_cup__iced_latte_png__plastic_cup_ice__ice_cafe_png__and_plastic_cups_with_ice_coffee_1555983.png",
+      "price": 5.60,
+      "description": "Refreshing iced coffee mixed with rich chocolate and milk.",
+      "isAvailable": true,
+      "country": "Colombia",
+      "roast": "Medium",
+      "flavorNotes": ["chocolatey", "cool", "creamy"],
+      "reviews": [
+        { "name": "Liam", "comment": "Perfect balance of coffee and chocolate.", "rating": 5, "date": "2024-01-20" },
+        { "name": "Ava", "comment": "Loved it, not too sweet.", "rating": 4, "date": "2024-02-11" },
+        { "name": "Noah", "comment": "Could use more ice.", "rating": 3, "date": "2024-03-15" },
+        { "name": "Emma", "comment": "Amazing taste, will buy again.", "rating": 5, "date": "2024-03-22" },
+        { "name": "Ethan", "comment": "One of my go-to iced coffees.", "rating": 5, "date": "2024-04-05" }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Latte Art Special",
+      "path": "/src/assets/coffee-images/Download_premium_png_of_PNG_Coffee_cup_latte_drink__about_cappuccino_png__paper_coffee_mug__latte_art_coffee__coffee__and_latte_13425994-removebg-preview.png",
+      "price": 4.90,
+      "description": "Beautifully crafted latte topped with elegant latte art.",
+      "isAvailable": false,
+      "country": "France",
+      "roast": "Light",
+      "flavorNotes": ["smooth", "silky", "artistic"],
+      "reviews": [
+        { "name": "Isabella", "comment": "So pretty I didn’t want to drink it.", "rating": 5, "date": "2024-01-30" },
+        { "name": "Mason", "comment": "Good, but just regular latte with art.", "rating": 3, "date": "2024-02-18" },
+        { "name": "Mia", "comment": "Creamy and elegant taste.", "rating": 4, "date": "2024-03-07" },
+        { "name": "Logan", "comment": "Presentation was top-notch!", "rating": 5, "date": "2024-03-25" },
+        { "name": "Amelia", "comment": "A lovely treat.", "rating": 4, "date": "2024-04-08" }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Espresso Ristretto",
+      "path": "/src/assets/coffee-images/DSC_9780-removebg-preview.png",
+      "price": 3.10,
+      "description": "A shorter, more concentrated shot of espresso with intense flavor.",
+      "isAvailable": true,
+      "country": "Italy",
+      "roast": "Dark",
+      "flavorNotes": ["intense", "bold", "aromatic"],
+      "reviews": [
+        { "name": "Carter", "comment": "Strong and full-bodied, love it.", "rating": 5, "date": "2024-02-01" },
+        { "name": "Grace", "comment": "Too bitter for me.", "rating": 2, "date": "2024-02-14" },
+        { "name": "Lucas", "comment": "True Italian taste.", "rating": 5, "date": "2024-03-05" },
+        { "name": "Harper", "comment": "Not my type, too strong.", "rating": 3, "date": "2024-03-21" },
+        { "name": "Benjamin", "comment": "Perfect espresso shot!", "rating": 5, "date": "2024-04-06" }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Holiday Spiced Latte",
+      "path": "/src/assets/coffee-images/Holiday_Spiced_Café_Au_Lait_-_The_Local_Palate-removebg-preview.png",
+      "price": 5.80,
+      "description": "A seasonal latte infused with cinnamon, nutmeg, and holiday cheer.",
+      "isAvailable": false,
+      "country": "USA",
+      "roast": "Medium",
+      "flavorNotes": ["spicy", "sweet", "festive"],
+      "reviews": [
+        { "name": "Evelyn", "comment": "Taste of the holidays in a cup!", "rating": 5, "date": "2024-01-10" },
+        { "name": "Alexander", "comment": "Too spicy for me.", "rating": 3, "date": "2024-02-19" },
+        { "name": "Abigail", "comment": "Delicious and cozy.", "rating": 4, "date": "2024-03-01" },
+        { "name": "Henry", "comment": "I wait all year for this!", "rating": 5, "date": "2024-03-18" },
+        { "name": "Ella", "comment": "Best seasonal drink ever.", "rating": 5, "date": "2024-04-09" }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Iced Cappuccino",
+      "path": "/src/assets/coffee-images/Iced_Coffee_Cappuccino_Cup__Cappuccino_Ice__Iced_Coffee_Cup__Ice_Coffee_PNG_Transparent_Image_and_Clipart_for_Free_Download-removebg-preview.png",
+      "price": 5.00,
+      "description": "Cool, refreshing cappuccino poured over ice.",
+      "isAvailable": true,
+      "country": "Vietnam",
+      "roast": "Medium",
+      "flavorNotes": ["chilled", "smooth", "frothy"],
+      "reviews": [
+        { "name": "Jack", "comment": "Refreshing and not too heavy.", "rating": 4, "date": "2024-01-16" },
+        { "name": "Luna", "comment": "Good but melts quickly.", "rating": 3, "date": "2024-02-12" },
+        { "name": "Sebastian", "comment": "My go-to iced coffee.", "rating": 5, "date": "2024-03-02" },
+        { "name": "Chloe", "comment": "Perfect balance of coffee and ice.", "rating": 4, "date": "2024-03-19" },
+        { "name": "William", "comment": "Love it on hot afternoons.", "rating": 5, "date": "2024-04-04" }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Plum Latte",
+      "path": "/src/assets/coffee-images/Plum_Pretty_Sugar-removebg-preview.png",
+      "price": 4.75,
+      "description": "A fruity latte infused with the sweetness of ripe plums.",
+      "isAvailable": false,
+      "country": "Japan",
+      "roast": "Light",
+      "flavorNotes": ["fruity", "sweet", "smooth"],
+      "reviews": [
+        { "name": "Victoria", "comment": "Unique and delicious!", "rating": 5, "date": "2024-01-13" },
+        { "name": "Matthew", "comment": "Not my usual taste, but good.", "rating": 3, "date": "2024-02-20" },
+        { "name": "Scarlett", "comment": "Light and fruity flavor.", "rating": 4, "date": "2024-03-04" },
+        { "name": "James", "comment": "Interesting twist on latte.", "rating": 4, "date": "2024-03-28" },
+        { "name": "Aiden", "comment": "Too sweet for me.", "rating": 2, "date": "2024-04-10" }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Virtuoso Latte",
+      "path": "/src/assets/coffee-images/Virtuoso_Latte-removebg-preview.png",
+      "price": 4.95,
+      "description": "A premium latte crafted with smooth espresso and silky milk.",
+      "isAvailable": true,
+      "country": "Switzerland",
+      "roast": "Medium",
+      "flavorNotes": ["creamy", "luxurious", "smooth"],
+      "reviews": [
+        { "name": "Penelope", "comment": "Feels like a luxury drink!", "rating": 5, "date": "2024-01-22" },
+        { "name": "Lucas", "comment": "Very creamy and smooth.", "rating": 4, "date": "2024-02-08" },
+        { "name": "Aria", "comment": "Loved the texture.", "rating": 5, "date": "2024-03-11" },
+        { "name": "Mila", "comment": "Good but a little pricey.", "rating": 3, "date": "2024-03-27" },
+        { "name": "Leo", "comment": "Worth every penny.", "rating": 5, "date": "2024-04-11" }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "White Mocha",
+      "path": "/src/assets/coffee-images/White_Coffee_Tea_Espresso_Coffee_Cup_PNG-removebg-preview.png",
+      "price": 5.10,
+      "description": "Espresso mixed with creamy white chocolate and milk.",
+      "isAvailable": false,
+      "country": "Belgium",
+      "roast": "Light",
+      "flavorNotes": ["sweet", "creamy", "chocolaty"],
+      "reviews": [
+        { "name": "Layla", "comment": "Best mocha I’ve tried!", "rating": 5, "date": "2024-01-18" },
+        { "name": "Elijah", "comment": "Too sweet for my taste.", "rating": 2, "date": "2024-02-21" },
+        { "name": "Nora", "comment": "Smooth and creamy, loved it.", "rating": 4, "date": "2024-03-06" },
+        { "name": "Oliver", "comment": "A chocolate lover’s dream.", "rating": 5, "date": "2024-03-23" },
+        { "name": "Avery", "comment": "Good, but a bit heavy.", "rating": 3, "date": "2024-04-13" }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Nature Brew",
+      "path": "/src/assets/coffee-images/Xícara_de_café_no_fundo_da_natureza____Foto_Premium-removebg-preview.png",
+      "price": 4.20,
+      "description": "A refreshing coffee inspired by the calmness of nature.",
+      "isAvailable": true,
+      "country": "Ethiopia",
+      "roast": "Medium",
+      "flavorNotes": ["earthy", "smooth", "natural"],
+      "reviews": [
+        { "name": "Zoe", "comment": "So calming and refreshing.", "rating": 5, "date": "2024-01-25" },
+        { "name": "Jackson", "comment": "Unique earthy flavor.", "rating": 4, "date": "2024-02-16" },
+        { "name": "Madison", "comment": "Not my kind of flavor.", "rating": 2, "date": "2024-03-08" },
+        { "name": "Ethan", "comment": "Very refreshing taste.", "rating": 4, "date": "2024-03-29" },
+        { "name": "Sofia", "comment": "Love the natural notes.", "rating": 5, "date": "2024-04-14" }
+      ]
+    }
+  ]
+}
