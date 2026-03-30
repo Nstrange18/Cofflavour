@@ -1,7 +1,6 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { FiCoffee } from "react-icons/fi"
-import "../styles/LogIn.css"
+import "../styles/Login.css"
 import { Icon } from '@iconify/react'
 
 const SignUp = () => {
