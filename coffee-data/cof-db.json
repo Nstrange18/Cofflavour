@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Vanilla Latte",
-      "path": "/src/assets/coffee-images/3d_cup_of_latte_png_on_white_background___Premium_AI-generated_PSD-removebg-preview.webp",
+      "path": "/coffee-images/3d_cup_of_latte_png_on_white_background___Premium_AI-generated_PSD-removebg-preview.webp",
       "price": 4.5,
       "description": "A creamy latte infused with smooth vanilla flavor, perfect for a cozy day.",
       "isAvailable": true,
@@ -51,7 +51,7 @@
     {
       "id": 2,
       "name": "Caramel Macchiato",
-      "path": "/src/assets/coffee-images/7a528432-98ab-4585-ad0b-4a7227b8b074-removebg-preview.webp",
+      "path": "/coffee-images/7a528432-98ab-4585-ad0b-4a7227b8b074-removebg-preview.webp",
       "price": 5.2,
       "description": "Espresso layered with steamed milk and topped with sweet caramel drizzle.",
       "isAvailable": false,
@@ -99,7 +99,7 @@
     {
       "id": 3,
       "name": "Hazelnut Cappuccino",
-      "path": "/src/assets/coffee-images/80a51a1c-d83c-4124-bffd-c3cedc9bf058-removebg-preview.webp",
+      "path": "/coffee-images/80a51a1c-d83c-4124-bffd-c3cedc9bf058-removebg-preview.webp",
       "price": 4.8,
       "description": "A nutty twist on the classic cappuccino with a hint of hazelnut syrup.",
       "isAvailable": true,
@@ -147,7 +147,7 @@
     {
       "id": 4,
       "name": "Mocha Delight",
-      "path": "/src/assets/coffee-images/85de57b0-2b7a-46e0-8f7c-ee16344c52ce-removebg-preview.webp",
+      "path": "/coffee-images/85de57b0-2b7a-46e0-8f7c-ee16344c52ce-removebg-preview.webp",
       "price": 5.0,
       "description": "Rich espresso blended with chocolate and milk, topped with whipped cream.",
       "isAvailable": true,
@@ -195,7 +195,7 @@
     {
       "id": 5,
       "name": "Classic Flat White",
-      "path": "/src/assets/coffee-images/A_cup_of_coffee_with_a_design_on_the_top___Premium_Photo-removebg-preview.webp",
+      "path": "/coffee-images/A_cup_of_coffee_with_a_design_on_the_top___Premium_Photo-removebg-preview.webp",
       "price": 4.3,
       "description": "A smooth flat white with velvety milk and bold espresso flavors.",
       "isAvailable": false,
@@ -243,7 +243,7 @@
     {
       "id": 6,
       "name": "Takeaway Espresso",
-      "path": "/src/assets/coffee-images/A_simple__classic_take-away_coffee_cup_on_a_tan_background_-removebg-preview.webp",
+      "path": "/coffee-images/A_simple__classic_take-away_coffee_cup_on_a_tan_background_-removebg-preview.webp",
       "price": 3.2,
       "description": "Strong espresso shot served in a convenient takeaway cup.",
       "isAvailable": true,
@@ -291,7 +291,7 @@
     {
       "id": 7,
       "name": "Cinnamon Latte",
-      "path": "/src/assets/coffee-images/b88f485a-e458-472e-9505-f1859824ede9-removebg-preview.webp",
+      "path": "/coffee-images/b88f485a-e458-472e-9505-f1859824ede9-removebg-preview.webp",
       "price": 4.7,
       "description": "Espresso and steamed milk with a touch of cinnamon spice.",
       "isAvailable": true,
@@ -339,7 +339,7 @@
     {
       "id": 8,
       "name": "Americano Bold",
-      "path": "/src/assets/coffee-images/Caffè_Americano-removebg-preview (1).webp",
+      "path": "/coffee-images/Caffè_Americano-removebg-preview (1).webp",
       "price": 3.8,
       "description": "Hot water poured over rich espresso, delivering a smooth, bold taste.",
       "isAvailable": false,
@@ -387,7 +387,7 @@
     {
       "id": 9,
       "name": "Classic Americano",
-      "path": "/src/assets/coffee-images/Caffè_Americano-removebg-preview.webp",
+      "path": "/coffee-images/Caffè_Americano-removebg-preview.webp",
       "price": 3.5,
       "description": "A simple yet satisfying cup of Americano coffee.",
       "isAvailable": true,
@@ -435,7 +435,7 @@
     {
       "id": 10,
       "name": "Espresso Shot",
-      "path": "/src/assets/coffee-images/Coffee_Photos_-_Download_Free_High-Quality_Pictures___Freepik-removebg-preview.webp",
+      "path": "/coffee-images/Coffee_Photos_-_Download_Free_High-Quality_Pictures___Freepik-removebg-preview.webp",
       "price": 2.5,
       "description": "Pure, strong, and aromatic espresso shot to boost your day.",
       "isAvailable": true,
@@ -483,7 +483,7 @@
     {
       "id": 11,
       "name": "Cappuccino Classic",
-      "path": "/src/assets/coffee-images/Cup_of_cappuccino_coffee-removebg-preview.webp",
+      "path": "/coffee-images/Cup_of_cappuccino_coffee-removebg-preview.webp",
       "price": 4.6,
       "description": "Espresso topped with steamed milk foam and a dusting of cocoa.",
       "isAvailable": true,
@@ -530,7 +530,7 @@
     {
       "id": 12,
       "name": "Iced Caramel Latte",
-      "path": "/src/assets/coffee-images/iced_caramel_latte.webp",
+      "path": "/coffee-images/iced_caramel_latte.webp",
       "price": 5.4,
       "description": "Chilled latte blended with caramel syrup and ice.",
       "isAvailable": false,
@@ -577,7 +577,7 @@
     {
       "id": 13,
       "name": "Iced Mocha",
-      "path": "/src/assets/coffee-images/iced_mocha.webp",
+      "path": "/coffee-images/iced_mocha.webp",
       "price": 5.6,
       "description": "Refreshing iced coffee mixed with rich chocolate and milk.",
       "isAvailable": true,
@@ -624,7 +624,7 @@
     {
       "id": 14,
       "name": "Latte Art Special",
-      "path": "/src/assets/coffee-images/Download_premium_png_of_PNG_Coffee_cup_latte_drink__about_cappuccino_png__paper_coffee_mug__latte_art_coffee__coffee__and_latte_13425994-removebg-preview.webp",
+      "path": "/coffee-images/Download_premium_png_of_PNG_Coffee_cup_latte_drink__about_cappuccino_png__paper_coffee_mug__latte_art_coffee__coffee__and_latte_13425994-removebg-preview.webp",
       "price": 4.9,
       "description": "Beautifully crafted latte topped with elegant latte art.",
       "isAvailable": false,
@@ -671,7 +671,7 @@
     {
       "id": 15,
       "name": "Espresso Ristretto",
-      "path": "/src/assets/coffee-images/DSC_9780-removebg-preview.webp",
+      "path": "/coffee-images/DSC_9780-removebg-preview.webp",
       "price": 3.1,
       "description": "A shorter, more concentrated shot of espresso with intense flavor.",
       "isAvailable": true,
@@ -718,7 +718,7 @@
     {
       "id": 16,
       "name": "Holiday Spiced Latte",
-      "path": "/src/assets/coffee-images/Holiday_Spiced_Café_Au_Lait_-_The_Local_Palate-removebg-preview.webp",
+      "path": "/coffee-images/Holiday_Spiced_Café_Au_Lait_-_The_Local_Palate-removebg-preview.webp",
       "price": 5.8,
       "description": "A seasonal latte infused with cinnamon, nutmeg, and holiday cheer.",
       "isAvailable": false,
@@ -765,7 +765,7 @@
     {
       "id": 17,
       "name": "Iced Cappuccino",
-      "path": "/src/assets/coffee-images/Iced_Coffee_Cappuccino_Cup__Cappuccino_Ice__Iced_Coffee_Cup__Ice_Coffee_PNG_Transparent_Image_and_Clipart_for_Free_Download-removebg-preview.webp",
+      "path": "/coffee-images/Iced_Coffee_Cappuccino_Cup__Cappuccino_Ice__Iced_Coffee_Cup__Ice_Coffee_PNG_Transparent_Image_and_Clipart_for_Free_Download-removebg-preview.webp",
       "price": 5.0,
       "description": "Cool, refreshing cappuccino poured over ice.",
       "isAvailable": true,
@@ -812,7 +812,7 @@
     {
       "id": 18,
       "name": "Plum Latte",
-      "path": "/src/assets/coffee-images/Plum_Pretty_Sugar-removebg-preview.webp",
+      "path": "/coffee-images/Plum_Pretty_Sugar-removebg-preview.webp",
       "price": 4.75,
       "description": "A fruity latte infused with the sweetness of ripe plums.",
       "isAvailable": false,
@@ -859,7 +859,7 @@
     {
       "id": 19,
       "name": "Virtuoso Latte",
-      "path": "/src/assets/coffee-images/Virtuoso_Latte-removebg-preview.webp",
+      "path": "/coffee-images/Virtuoso_Latte-removebg-preview.webp",
       "price": 4.95,
       "description": "A premium latte crafted with smooth espresso and silky milk.",
       "isAvailable": true,
@@ -906,7 +906,7 @@
     {
       "id": 20,
       "name": "White Mocha",
-      "path": "/src/assets/coffee-images/White_Coffee_Tea_Espresso_Coffee_Cup_PNG-removebg-preview.webp",
+      "path": "/coffee-images/White_Coffee_Tea_Espresso_Coffee_Cup_PNG-removebg-preview.webp",
       "price": 5.1,
       "description": "Espresso mixed with creamy white chocolate and milk.",
       "isAvailable": false,
@@ -953,7 +953,7 @@
     {
       "id": 21,
       "name": "Nature Brew",
-      "path": "/src/assets/coffee-images/Xícara_de_café_no_fundo_da_natureza____Foto_Premium-removebg-preview.webp",
+      "path": "/coffee-images/Xícara_de_café_no_fundo_da_natureza____Foto_Premium-removebg-preview.webp",
       "price": 4.2,
       "description": "A refreshing coffee inspired by the calmness of nature.",
       "isAvailable": true,
