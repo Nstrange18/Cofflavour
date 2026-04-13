@@ -1,8 +1,8 @@
 import "../styles/About.css"
 import myVideo from "../assets/aboutvideo.mp4"
-import frontView from "../assets/cofflavour-building-at-night.png"
-import sideView from "../assets/cofflavour-from-across-the-street.png"
-import waitress from "../assets/waitress-serving-coffee.png"
+import frontView from "../assets/cofflavour-building-at-night.webp"
+import sideView from "../assets/cofflavour-from-across-the-street.webp"
+import waitress from "../assets/waitress-serving-coffee.webp"
 
 const About = () => {
   return (

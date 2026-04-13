@@ -1,5 +1,5 @@
 import "../styles/Banner.css"
-import bannerImg from "../assets/coffee-images/Iced_Coffee_Cappuccino_Cup__Cappuccino_Ice__Iced_Coffee_Cup__Ice_Coffee_PNG_Transparent_Image_and_Clipart_for_Free_Download-removebg-preview.png"
+import bannerImg from "../assets/coffee-images/Iced_Coffee_Cappuccino_Cup__Cappuccino_Ice__Iced_Coffee_Cup__Ice_Coffee_PNG_Transparent_Image_and_Clipart_for_Free_Download-removebg-preview.webp"
 import { Link } from "react-router-dom"
 
 const Banner = () => {
