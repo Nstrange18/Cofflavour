@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../styles/ProductDetails.css'
 import { useLoaderData, useNavigate, useParams } from 'react-router-dom'
 import { FaCaretDown, FaCaretUp, FaStar, FaArrowLeft } from 'react-icons/fa'
+import coffeeData from '../../coffee-data/cof-db.json'
 
 const ProductDetails = () => {
     const { id } = useParams()
@@ -102,8 +103,13 @@ const ProductDetails = () => {
 
 export const productDetailsLoader = async ({ params }) => {
     const { id } = params
-    const res = await fetch("http://localhost:4000/coffee/" + id);
-    return res.json()
+    const coffee = coffeeData.coffee.find(c => c.id.toString() === id.toString());
+    
+    if (!coffee) {
+        throw new Response("Not Found", { status: 404 });
+    }
+    
+    return coffee;
 }
 
 export default ProductDetails

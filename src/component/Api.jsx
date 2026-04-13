@@ -1,5 +1,5 @@
-export const coffeeLoader = async() => {
-  const res = await fetch("http://localhost:4000/coffee");
+import coffeeData from '../../coffee-data/cof-db.json';
 
-  return res.json()
+export const coffeeLoader = async() => {
+  return coffeeData.coffee;
 }

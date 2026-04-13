@@ -16,11 +16,13 @@ import NotFound from "./pages/NotFound";
 // import Api from "./component/Api";
 import { coffeeLoader } from "./component/Api";
 import ProductDetails, { productDetailsLoader } from "./pages/ProductDetails";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
     const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<RootLayout />}>
+          <Route errorElement={<ErrorPage />}>
         <Route index element={<Home />} loader={coffeeLoader} />
         <Route path="products" element={<Products />} loader={coffeeLoader} />
         <Route path="about" element={<AboutUs />} />
@@ -31,6 +33,7 @@ function App() {
 
         <Route path="*" element={<NotFound />} />
         
+        </Route>
     </Route>
     )
 );
